@@ -13,3 +13,7 @@ docs/v3/responsive-original\.svg
 docs/v3/index-splash_original\.jpg
 
 node_modules
+
+.ddev
+
+.idea

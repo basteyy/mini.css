@@ -1,5 +1,5 @@
 {
-  "name": "mini.css",
+  "name": "mini.css2",
   "version": "3.0.1",
   "description": "A minimal, responsive, style-agnostic CSS framework.",
   "main": "dist/mini-default.min.css",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chalarangelo/mini.css.git"
+    "url": "git+https://github.com/basteyy/mini.css.git"
   },
   "devDependencies": {
     "file-saver": "^1.3.8",
@@ -37,8 +37,8 @@
   "author": "Angelos Chalaris (chalarangelo@gmail.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Chalarangelo/mini.css/issues",
-    "email": "chalarangelo@gmail.com"
+    "url": "https://github.com/basteyy/mini.css/issues",
+    "email": "sebastian@eiweleit.de"
   },
-  "homepage": "http://minicss.org"
+  "homepage": "https://eiweleit.de/css"
 }

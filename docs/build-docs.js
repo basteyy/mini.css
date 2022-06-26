@@ -33,7 +33,7 @@ var indexHtml = `<!DOCTYPE html>
     <a class="button col-sm col-md" href="docs">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="height: 20px; vertical-align: text-top;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
     <span>&nbsp;Docs</span></a>
-    <a class="button col-sm col-md" href="https://github.com/Chalarangelo/mini.css" target="_blank">
+    <a class="button col-sm col-md" href="https://github.com/basteyy/mini.css" target="_blank">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="height: 20px; vertical-align: text-top;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
     <span>&nbsp;Github</span></a>
     <a class="button col-sm col-md" href="flavors">
@@ -60,10 +60,10 @@ var indexHtml = `<!DOCTYPE html>
       <h2 class="feature-header">Get started now!</h2><br>
       <p>Head over to the <a href="docs">documentation</a> to learn how to get started using <strong>mini.css</strong>, as well as what flavors and components are availble and how to use them to create the website or web app you've always wanted. If you like the framework and want to support it, remember to to star it on Github. It means a lot to us and it only takes a couple of seconds!</p>
       <p style="text-align:center;"><a href="docs" class="button">Get started</a></p>
-      <a href="https://github.com/Chalarangelo/mini.css" target="_blank" class="centered">mini.css on Github</a>
+      <a href="https://github.com/basteyy/mini.css" target="_blank" class="centered">mini.css on Github</a>
     </div>
   </div>
-  <footer class="row"><div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2"><p style="text-align: justify;"><strong>mini.css</strong> was designed and built by <a href="https://github.com/Chalarangelo" target="_blank">@Chalarangelo</a>. Source code licensed under the <a href="https://github.com/Chalarangelo/mini.css/blob/master/LICENSE">MIT License</a>.</p><p>Icons provided by <a href="https://feathericons.com/" target="_blank">Feather</a>. Photo by <a href="https://unsplash.com/photos/vjMgqUkS8q8" target="_blank">Christopher Gower</a> on <a href="https://unsplash.com" target="_blank">Unsplash</a>.</p></div></footer>
+  <footer class="row"><div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2"><p style="text-align: justify;"><strong>mini.css</strong> was designed and built by <a href="https://github.com/Chalarangelo" target="_blank">@Chalarangelo</a>. Source code licensed under the <a href="https://github.com/basteyy/mini.css/blob/master/LICENSE">MIT License</a>.</p><p>Icons provided by <a href="https://feathericons.com/" target="_blank">Feather</a>. Photo by <a href="https://unsplash.com/photos/vjMgqUkS8q8" target="_blank">Christopher Gower</a> on <a href="https://unsplash.com" target="_blank">Unsplash</a>.</p></div></footer>
   </body>
 </html>`;
 
@@ -98,7 +98,7 @@ var documentEnd = `</body></html>`;
 
 var appShellStart = `<div id="root"><header class="row">
   <span class="logo col-sm-3 col-md">mini.css</span>
-  <a class="button col-sm col-md" href="https://github.com/Chalarangelo/mini.css" target="_blank">
+  <a class="button col-sm col-md" href="https://github.com/basteyy/mini.css" target="_blank">
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="height: 20px; vertical-align: text-top;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
   <span>&nbsp;Github</span></a>
   <a class="button col-sm col-md" href="flavors">
@@ -114,7 +114,7 @@ var appSidebarStart = `<input id="doc-drawer-checkbox" class="drawer" value="on"
 var appSidebarEnd = `<span id="no-results">No results found</span></nav>`;
 
 var mainStart = `<main class="col-sm-12 col-md-8 col-lg-9" id="doc-content">`;
-var mainEnd = `<footer><p><strong>mini.css</strong> was designed and built by <a href="https://github.com/Chalarangelo" target="_blank">@Chalarangelo</a>. Source code licensed under the <a href="https://github.com/Chalarangelo/mini.css/blob/master/LICENSE">MIT License</a>.</p><p>Icons provided by <a href="https://feathericons.com/" target="_blank">Feather</a>. Search powered by <a href="http://fusejs.io/" target="_blank">Fuse.js</a>.</p></footer></main>`;
+var mainEnd = `<footer><p><strong>mini.css</strong> was designed and built by <a href="https://github.com/Chalarangelo" target="_blank">@Chalarangelo</a>. Source code licensed under the <a href="https://github.com/basteyy/mini.css/blob/master/LICENSE">MIT License</a>.</p><p>Icons provided by <a href="https://feathericons.com/" target="_blank">Feather</a>. Search powered by <a href="http://fusejs.io/" target="_blank">Fuse.js</a>.</p></footer></main>`;
 
 var documentationFragments = docFragments.map(f => buildFragment(f)).join('<br/>');
 var documentationLinks = docFragments.map(f => buildLink(f)).join('');
@@ -215,7 +215,7 @@ var customizationEnd = `</body></html>`;
 
 var customizationAppShellStart = `<div id="root"><header class="row">
   <span class="logo col-sm-3 col-md">mini.css</span>
-  <a class="button col-sm col-md" href="https://github.com/Chalarangelo/mini.css" target="_blank">
+  <a class="button col-sm col-md" href="https://github.com/basteyy/mini.css" target="_blank">
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="height: 20px; vertical-align: text-top;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
   <span>&nbsp;Github</span></a>
   <a class="button col-sm col-md" href="docs">
@@ -231,7 +231,7 @@ var customizationAppSidebarStart = `<input id="doc-drawer-checkbox" class="drawe
 var customizationAppSidebarEnd = `</nav>`;
 
 var customizationMainStart = `<main class="col-sm-12 col-md-8 col-lg-9" id="doc-content">`;
-var customizationMainEnd = `<footer><p><strong>mini.css</strong> was designed and built by <a href="https://github.com/Chalarangelo" target="_blank">@Chalarangelo</a>. Source code licensed under the <a href="https://github.com/Chalarangelo/mini.css/blob/master/LICENSE">MIT License</a>.</p><p>Icons provided by <a href="https://feathericons.com/" target="_blank">Feather</a>. Flavor generation powered by <a href="http://sass.js.org/" target="_blank">Sass.js</a> and <a href="https://stuk.github.io/jszip/" target="_blank">JSZip</a>.</p></footer></main>`;
+var customizationMainEnd = `<footer><p><strong>mini.css</strong> was designed and built by <a href="https://github.com/Chalarangelo" target="_blank">@Chalarangelo</a>. Source code licensed under the <a href="https://github.com/basteyy/mini.css/blob/master/LICENSE">MIT License</a>.</p><p>Icons provided by <a href="https://feathericons.com/" target="_blank">Feather</a>. Flavor generation powered by <a href="http://sass.js.org/" target="_blank">Sass.js</a> and <a href="https://stuk.github.io/jszip/" target="_blank">JSZip</a>.</p></footer></main>`;
 
 var customizationFragments = custFragments.map(f => buildCustomizationFragment(f)).join('<br/>');
 var customizationLinks = [buildLink(custFragments[0]), buildLink(custFragments[1]), '<hr style="padding:0;"/>', ...custFragments[2].sections.map(f => buildLink(f))].join('');

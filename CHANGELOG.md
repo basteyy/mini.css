@@ -16,8 +16,8 @@
   - `progress` - same as before, some changes in naming conventions and styles
   - `icon` - new module, adds 20 new icons ot the framework, along with some color variants
   - `utility` - same as before, some naming convention changes, removed `breadcrumbs` and `close` components
-- Revamped documentation can be found [here](https://minicss.org/docs), making it easy to find what you are looking for.
-- Customization tool can be found [here](https://minicss.org/flavors), allowing you to build your own flavors.
+- Revamped documentation can be found [here](https://eiweleit.de/css), making it easy to find what you are looking for.
+- Customization tool can be found [here](https://eiweleit.de/css/flavors.html), allowing you to build your own flavors.
 - Updated documentation to reflect the changes made.
 
 ## v2.3.7
